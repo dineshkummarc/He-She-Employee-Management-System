@@ -290,6 +290,21 @@ $stmt1->close();
                     </div>
                     <span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform">chevron_right</span>
                 </a>
+				
+				<!-- Swap Approvals -->
+                <a class="group bg-white border border-outline-variant p-6 flex items-center justify-between hover:bg-surface-container-low transition-all duration-200 rounded-xl md:col-span-2" href="manage_swaps.php">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 bg-surface-container flex items-center justify-center border border-outline-variant rounded-xl">
+                            <span class="material-symbols-outlined text-[32px] text-secondary group-hover:text-primary transition-colors">event_busy</span>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg text-on-surface">Swap Approvals</h3>
+                            <p class="text-sm text-secondary">Review and approve or reject employee swap requests.</p>
+                        </div>
+                    </div>
+                    <span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform">chevron_right</span>
+                </a>
+				
             </div>
 
         <?php elseif ($role == 'Employee'): ?>
